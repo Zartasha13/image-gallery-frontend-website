@@ -1,0 +1,37 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: url('WhatsApp Image 2024-07-13 at 09.48.19_944c2f22.jpg'); /* Add your background image URL here */
+    background-color: hsl(258, 73%, 88%); /* Fallback color */
+    background-size: cover; /* Cover the entire area */
+    background-position: center; /* Center the image */
+    background-attachment: fixed; /* Fixed background */
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: rgb(215, 232, 220); /* Slight white background for readability */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1, h2 {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+.upload-section, .albums, .gallery, form {
+    margin: 20px 0;
+}
+
+.gallery img {
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.gallery img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(157, 143, 143, 0.2);
+}
